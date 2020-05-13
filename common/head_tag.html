@@ -1,0 +1,10 @@
+<script type="text/discourse-plugin" version="0.8">
+    api.onPageChange(() =>{
+        partnertitle();
+    });
+    
+    function partnertitle() {
+        $("<h2 class='partner-title'>Ecosystem & Partners</h2>").insertBefore('.category-box-ceptr');
+        $("<h2 class='partner-title'>Ideation & Design</h2>").insertBefore('.category-box-sacred-capital');
+    }
+</script>
