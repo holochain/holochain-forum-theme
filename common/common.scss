@@ -12,7 +12,7 @@ body { font-family: 'Work Sans', sans-serif; letter-spacing: -.2px; }
 
 /* Branding Header */
 
-.b-header { background-color: #2F1F62 !important; }
+.b-header, .b-footer { background-color: #2F1F62 !important; }
 .b-header .nav-pills>li>a:hover { background-color: rgba(255,255,255,.15) !important; color: #FFF !important; }
 .b-header a { color: #FFF !important; }
 .custom-header-links a { font-weight: 600; line-height: 18px; }
@@ -26,3 +26,48 @@ body { font-family: 'Work Sans', sans-serif; letter-spacing: -.2px; }
 
 .cooked hr + small { font-size: 15px; font-weight: bold; }
 .btn.expand-post { display: none; }
+
+/* Footer */
+
+.site-footer {
+    background: #2F1F62;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: inherit;
+    line-height: normal;
+}
+.site-footer-global-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 3em 0;
+}
+.site-footer-global-nav__section {
+    flex: auto;
+}
+.site-footer-global-nav h3 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.site-footer-global-nav ul {
+    list-style: none;
+    margin: 0;
+}
+.site-footer-global-nav li {
+    margin: .25em 0;
+    padding-left: 0;
+    line-height: inherit;
+}
+.site-footer-global-nav a {
+    color: inherit;
+}
+
+@media (max-width: 640px) {
+    .site-footer-global-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .site-footer-global-nav__section {
+        flex-basis: 50%;
+    }
+}
