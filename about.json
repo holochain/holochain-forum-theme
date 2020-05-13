@@ -1,10 +1,10 @@
 {
-  "name": "Light",
+  "name": "Light (staging)",
   "component": false,
   "license_url": null,
   "about_url": null,
   "authors": null,
-  "theme_version": null,
+  "theme_version": "1.1",
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
