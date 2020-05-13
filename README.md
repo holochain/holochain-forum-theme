@@ -1,4 +1,4 @@
-# holochain-forum-theme (light)
+# holochain-forum-theme (dark)
 
 ## How to deploy
 
@@ -8,4 +8,4 @@
 
 ## This isn't all there is!
 
-There is another branch, `dark`, which holds a dark variant of this theme (naturally). It's based off this branch, and any time you make changes to this theme (except to the theme colours, of course) you should merge those changes into the `dark` branch too.
+There is another branch, `light`, which holds the original of this theme. This branch is based on the other, and any time you make changes to the other theme (except to the theme colours, of course) you should merge those changes into this branch too. This means that you should **never edit HTML and CSS in this branch!** Always do it in the `light` branch and merge to this branch.
