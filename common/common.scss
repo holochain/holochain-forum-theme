@@ -3,9 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap');
 body { font-family: 'Work Sans', sans-serif; letter-spacing: -.2px; }
 .badge-wrapper .badge-category .category-name { font-weight: 600; }
-.discourse-tag.box { background: #FFF8D3; }
 .raw-topic-link { font-weight: 700; }
-#banner, .alert, .post-notice { background: #dbfaf8 !important; }
 #banner { margin-bottom: 17px; }
 
 @media (max-width:760px) {
@@ -16,13 +14,13 @@ body { font-family: 'Work Sans', sans-serif; letter-spacing: -.2px; }
 
 .b-header { background-color: #2F1F62 !important; }
 .b-header .nav-pills>li>a:hover { background-color: rgba(255,255,255,.15) !important; color: #FFF !important; }
+.b-header a { color: #FFF !important; }
 .custom-header-links a { font-weight: 600; line-height: 18px; }
 
 /* Projects */
 
 .category-projects .category-box-inner .description { display: none; }
 .category-logo.aspect-image { --max-height: 100px; }
-.partner-title { width: 100%; margin: 5px 0 20px 10px; display: block; }
 
 /* Embed */
 
