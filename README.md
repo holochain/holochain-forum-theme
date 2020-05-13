@@ -4,7 +4,10 @@
 
 1. Push your changes on this branch to the GitHub repo.
 2. Log on to https://forum.holochain.org/admin/customize/themes with an account that has admin privileges.
-3. ???
+3. Click the **Light** theme in the left sidebar.
+4. Click the **Check for Updates** button. You should see a message saying that the theme is ? commits ahead.
+5. The Check for Updates button should now say **Update Theme** or something similar. Click it.
+6. You and all the others will probably need a hard refresh before you see any changes.
 
 ## This isn't all there is!
 
