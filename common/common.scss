@@ -1,7 +1,9 @@
 /* General */
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap');
-body { font-family: 'Work Sans', sans-serif; letter-spacing: -.2px; }
+body { font-family: Mulish, sans-serif; }
+h1, h2, h3 { font-weight: 900; }
+h4, h5, h6 { font-weight: 700; }
+.names span.first { font-weight: 900; }
 .badge-wrapper .badge-category .category-name { font-weight: 600; }
 .raw-topic-link { font-weight: 700; }
 #banner { margin-bottom: 17px; }
